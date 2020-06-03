@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<meta charset="UTF-8">
 	</head>
 	<body>
-		HELLO
+		<h1>전달받은 데이터</h1>
+		<ul>
+			<li>당신이 검색한 단어는 <%= request.getParameter("keyword") %></li>
+		</ul>
 	</body>
 </html>
